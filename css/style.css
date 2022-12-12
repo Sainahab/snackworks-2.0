@@ -1,31 +1,4 @@
-/* 
-* Google Fonts
 
-* BASIC STYLE
-  - General Style    
-  - Headings Style    
-  - Button Style    
-  - Form Style    
-  - Spacer Style
-
-* HEADER
-
-* CONTANT
-  - Banner Style
-  - Services Features section
-  - Our speciality section
-  - Special Menu section
-  - online Booking
-  - Chef section
-  - News section
-  - Customer reviews section
-  - About section
-  - Menu Page
-  - Blog Page
-  - Reservation Page
-  - about Page
-  - Contact Page
-  
 /*_______________________________________________________
 // BASIC STYLE  //----------------------------
 _______________________________________________________*/
@@ -420,18 +393,18 @@ button.news-more {border: unset; background: transparent;}
 /* News Block css End */
 
 /* Customer reviews Block css start */
-.customer{background: #121619; position: relative; overflow: hidden;}
+.customer{background: black; position: relative; overflow: hidden;}
 .customer-inner .headding-part h2{color: #fff;}
 .customer-img{width: 180px; float: left;}
 .customer-img-in {width: 135px; text-align: center;}
 .customer-img .customer-image{width: 135px; height: 135px; border: 5px solid #fd9d3e; border-radius: 100%;}
 .customer-img .customer-name{font-size: 20px; color: #fd9d3e; text-transform: uppercase; padding-top: 10px;}
-.customer-reviews{width: calc(100% - 180px); float: left; background: #fff; padding: 40px 50px; position: relative;}
+.customer-reviews{width: calc(100% - 180px); float: left; background: white(4, 3, 3); padding: 40px 50px; border: rgb(202, 132, 3) 3px solid; border-radius: 10px; position: relative;}
 .customer-reviews .review-cus{font-size: 18px; color: #999999; padding-bottom: 15px; font-style: italic;}
 .customer-reviews .post-name {color: #fd9d3e; text-transform: uppercase;}
 .customer-reviews .post-name span{font-size: 12px; text-transform: lowercase;}
 .customer-detail{display: flex!important; width: 100%; align-items: center; padding: 20px 0px;}
-.customer-reviews:before{content: ""; width: 0; height: 0; border-style: solid; border-width: 17.5px 18px 17.5px 0; border-color: transparent #ffffff transparent transparent; position: absolute; left: -18px; top: 50%; transform: translateY(-50%);}
+.customer-reviews:before{content: ""; width: 0; height: 0; border-style: solid; border-width: 17.5px 18px 17.5px 0; border-color: transparent rgb(202, 132, 3) transparent transparent; position: absolute; left: -18px; top: 50%; transform: translateY(-50%);}
 .customer-top-bg{position: absolute; top: -75px; left: 0; width: 100%;}
 .customer-top-bg img{width: 100%;}
 .customer-bottom-bg{position: absolute; bottom: -7px; left: 0; width: 100%;}
@@ -451,6 +424,7 @@ button.news-more {border: unset; background: transparent;}
 .about-more-z{margin-top: 35px; text-transform: uppercase;}
 .about-pizzon-img{margin-top: -160px; padding-left: 60px;}
 .about-pizzon-img .pizzon-ab {max-height: 580px;}
+.about-pizzon{background-color: white(255, 214, 214);}
 /* About Block css End */
 
 /*Menu Page  //----------------------------*/
@@ -866,3 +840,11 @@ span.footer-close {background: #fd9d3e; padding: 2px 16px;}
 .comment-part {text-align: left;}
 .border-tab ul li a:before {content: ""; transition: all 400ms ease; position: absolute; bottom: 0; left: 0; background: #000; width: 0%; height: 2px;}
 .border-tab ul li.current a:before{width: 100%;}
+
+
+
+
+
+<section class="contact-map">
+		<iframe class="map-pizzon" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3236.8407846849427!2d-5.811776288687919!3d35.77928717244136!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd0c7f4fdee5753b%3A0x45f439765e387698!2sSignworks%20%3A%20Creative%20Media!5e0!3m2!1sen!2sma!4v1670857675906!5m2!1sen!2sma" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></src=>
+	</section>
