@@ -240,4 +240,13 @@ $(function() {
         $(document).ready(function() {
             responsive_dropdown ();
         });
+
+});
+
+
+$("#list").click(function() {
+    $('.menu-list-box-2').css("flex-direction" , "row"); 
+});
+$("#grid").click(function() {
+    $('.menu-list-box-2').css("flex-direction" , "column"); 
 });
