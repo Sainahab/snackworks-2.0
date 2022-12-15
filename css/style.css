@@ -200,7 +200,6 @@ _______________________________________________________*/
 
 /* - Banner Style  //---------------- */
 .banner{background-color: #121619; position: relative; min-height: 800px;}
-.banner:before{content: ""; position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-image: url(../images/chef-bg.png); background-size: cover;background-position: center; background-repeat: no-repeat; opacity: 0.3;}
 .banner .owl-item {min-height: 800px;}
 .banner-text {text-align: center; position: absolute; top: 150px; left: 50%; transform: translate(-50%); width: 100%; z-index: 1;}
 .banner-headding {font-size: 150px; color: #fefefe; text-transform: uppercase; font-weight: 700;}
@@ -419,12 +418,12 @@ button.news-more {border: unset; background: transparent;}
 /* Customer Block css End */
 
 /* About Block css start */
-.about-pizzon .max-w-390 {max-width: 460px;}
-.about-pizzon .online-des{padding-top: 30px}
+.about-shop .max-w-390 {max-width: 460px;}
+.about-shop .online-des{padding-top: 30px}
 .about-more-z{margin-top: 35px; text-transform: uppercase;}
-.about-pizzon-img{margin-top: -160px; padding-left: 60px;}
-.about-pizzon-img .pizzon-ab {max-height: 580px;}
-.about-pizzon{background-color: white(255, 214, 214);}
+.about-shop-img{margin-top: -160px; padding-left: 60px;}
+.about-shop-img .shop-ab {max-height: 580px;}
+.about-shop{background-color: white(255, 214, 214);}
 /* About Block css End */
 
 /*Menu Page  //----------------------------*/
@@ -609,7 +608,7 @@ blockquote p {font-size: 20px !important; color: #121619 !important; max-width: 
 .contact-detail ul li a:hover{color: #fd9d3e;}
 .contact-in .leave .form-group {margin-bottom: 30px;}
 .contact-in .post-com {border-radius: 0; width: 100%;}
-.map-pizzon {width: 100%; height: 435px; display: block;}
+.map-shop {width: 100%; height: 435px; display: block;}
 .contact-in .leave {padding-left: 70px;}
 /* Contact Page End */
 
