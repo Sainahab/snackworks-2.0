@@ -453,8 +453,8 @@ button.news-more {border: unset; background: transparent;}
 .menu-detail ul li:first-child:before{content: unset;}
 .iteam-desc{font-size: 14px; color: #888888; padding-top: 8px; padding-bottom: 15px;}
 .menu-list-box-2 .iteam-desc{height: 55px; overflow: hidden;}
-.iteam-order{font-size: 16px; color: #fd9d3e; font-weight: 700; text-transform: uppercase; text-decoration: underline;}
-.iteam-order:hover {color: #121619; text-decoration: underline;}
+.iteam-order{font-size: 16px; color: #fd9d3e; font-weight: 700; text-transform: uppercase; border: solid 1px orange;padding: 5px 5px;display: flex;justify-content: space-around;}
+.iteam-order:hover {background-color: orange; text-decoration: underline;color: white;}
 .list-img {position: relative; overflow: hidden; top: 0; transition: all 400ms ease;}
 .list-img::before { position: absolute; top: 50%; left: 50%; z-index: 2; display: block; content: ''; width: 0; height: 0; background: rgba(255,255,255,.2); border-radius: 100%; -webkit-transform: translate(-50%, -50%); transform: translate(-50%, -50%); opacity: 0;}
 .list-img:hover{top: -10px;}
