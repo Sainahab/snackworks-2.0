@@ -452,7 +452,7 @@ button.news-more {border: unset; background: transparent;}
 .menu-detail ul li:first-child:before{content: unset;}
 .iteam-desc{font-size: 14px; color: #888888; padding-top: 8px; padding-bottom: 15px;}
 .menu-list-box-2 .iteam-desc{height: 55px; overflow: hidden;}
-.iteam-order{font-size: 16px; color: #fd9d3e; font-weight: 700; text-transform: uppercase; border: solid 1px orange;padding: 5px 5px;display: flex;justify-content: space-around;}
+.iteam-order{font-size: 16px; color: #fd9d3e !important; font-weight: 700; text-transform: uppercase; border: solid 1px orange;padding: 5px 5px;display: flex;justify-content: space-around;}
 .iteam-order:hover {background-color: orange; text-decoration: underline;color: white;}
 .list-img {position: relative; overflow: hidden; top: 0; transition: all 400ms ease;}
 .list-img::before { position: absolute; top: 50%; left: 50%; z-index: 2; display: block; content: ''; width: 0; height: 0; background: rgba(255,255,255,.2); border-radius: 100%; -webkit-transform: translate(-50%, -50%); transform: translate(-50%, -50%); opacity: 0;}
@@ -839,3 +839,45 @@ span.footer-close {background: #fd9d3e; padding: 2px 16px;}
 .comment-part {text-align: left;}
 .border-tab ul li a:before {content: ""; transition: all 400ms ease; position: absolute; bottom: 0; left: 0; background: #000; width: 0%; height: 2px;}
 .border-tab ul li.current a:before{width: 100%;}
+ /* The Modal (background) */
+ .modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content/Box */
+  .modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+  }
+
+  .modal-content img {
+    width: 100%;
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  } 
+

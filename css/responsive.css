@@ -426,6 +426,8 @@
 	.pt-50 {padding-top: 10px;}
 	.pt-100 {padding-top: 50px;}
 	.pb-r-30{padding-bottom: 30px;}
+	.about-shop-img .shop-ab{width: 100%;}
+	.about-shop-img{margin-top: 0px !important;}
 
 	header#header{padding: 10px 0;}
 	#menu{top: 60px !important;}
