@@ -839,20 +839,22 @@
 					</div>
 					<div class="col-xl-8 col-lg-8 col-md-7">
 						<div class="leave">
-							<form>
+							<form id="contact-form" method="post" action="contact.php" role="form">
+								<div class="messages"></div>
 								<div class="form-group">
-									<input type="text" name="Email" class="form-control" placeholder="Email" required="">
+									<input id="form_name" type="text" name="name" class="form-control" placeholder="Please enter your firstname *" required="required" data-error="Firstname is required.">
+                                    <div class="help-block with-errors"></div>
 								</div>
 								<div class="form-group">
-									<input type="text" name="Subject" class="form-control" placeholder="Subject" required="">
+									<input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email *" required="required" data-error="Valid email is required.">
+                                    <div class="help-block with-errors"></div>
 								</div>
+							
 								<div class="form-group">
-									<input type="text" name="Phone" class="form-control" placeholder="Phone" required="">
+									<textarea id="form_message" name="message" class="form-control" placeholder="Message for me *" rows="4" required="required" data-error="Please, leave us a message."></textarea>
+                                    <div class="help-block with-errors"></div>
 								</div>
-								<div class="form-group">
-									<textarea class="form-control" placeholder="Message"></textarea>
-								</div>
-								<input type="submit" name="submit" value="Send Message" class="post-com">
+								<input type="submit" class="btn btn-success btn-send" value="Send message">
 							</form>
 						</div>
 					</div>
@@ -933,6 +935,9 @@
 	<script src="js/owl.carousel.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 	<script src="js/script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/1000hz-bootstrap-validator/0.11.9/validator.min.js" integrity="sha256-dHf/YjH1A4tewEsKUSmNnV05DDbfGN3g7NMq86xgGh8=" crossorigin="anonymous"></script>
+    <script src="js/contact.js"></script>
 
 </body>
 </html>
